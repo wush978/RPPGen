@@ -1,6 +1,7 @@
 .Rproj.user
 .Rhistory
 .RData
+*.html
 src/*.o
 src/*.so
 src/*.dll

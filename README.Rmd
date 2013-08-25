@@ -1,3 +1,5 @@
+Page on RPubs: <http://rpubs.com/wush978/RPPGen>
+
 # Notation
 
 - $T_0$: The upper bound of time.
