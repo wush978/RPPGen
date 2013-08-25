@@ -1,0 +1,17 @@
+Package: RPPGen
+Type: Package
+Title: Generator of Point Process
+Version: 0.1
+Date: 2013-08-25
+Author: Wush Wu
+Maintainer: Wush Wu <wush978@gmail.com>
+Description: Generator of Point Process
+License: GPL(>= 3)
+Depends:
+    Rcpp (>= 0.10.4)
+LinkingTo: Rcpp
+Collate:
+    'HawkesProcess.R'
+    'InhomogenousPP.R'
+    'RcppExports.R'
+    'zzz.R'

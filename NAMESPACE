@@ -1,0 +1,4 @@
+export(gen_hawkes_process)
+export(gen_homo_poisson)
+export(gen_inhomo_poisson)
+useDynLib(RPPGen)
