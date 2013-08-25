@@ -1,0 +1,24 @@
+# Notation
+
+- $T_0$: The upper bound of time.
+- $N(t)$: The number of observation during time interval $[0, t]$. A random varialbe. 
+
+# Homogeneous Poisson Process
+
+## Definition
+
+$$P[N(t) = k] = \frac{e^{-\lambda \tau} (\lambda \tau)^k}{k!}$$
+
+$\lambda$ is called *intensity*.
+
+## Generator
+
+- `lambda` stands for $\lambda$
+
+The following r code generates the homogeneous poisson process with intensity `lambda`.
+
+```{r homo-pp}
+library(RPPGen)
+gen_homo_poisson(1, 40)
+```
+
